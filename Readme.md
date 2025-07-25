@@ -107,8 +107,8 @@
 >>|------------------------------|
 >>| Cabeçalho 1  | Cabeçalho 2   |
 >>|------------------------------|
->>| Conteúdo 1   | Conteúdo 2    |
->>| Conteúdo 3   | Conteúdo 4    |
+>>| Conteúdo 1   | Conteúdo 2 |  A |
+>>| Conteúdo 3   | Conteúdo 4 |  B |
 >>|       Conteúdo 5             |
 >>|       Conteúdo 6             |
 
