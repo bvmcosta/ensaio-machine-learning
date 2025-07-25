@@ -61,9 +61,9 @@
 >>
 >><p align = "center"><img src="img/resultados_dtr_rfr_lr.png" alt="" width="500" height="500"/></p>
 >>
->><div style="text-align: justify">(<strong>Ensaio de classificação com </strong>) O algoritmo apresentou performance muito satisfatória (seção 6) e a curva ROC indicou distanciamento máximo da curva proveniente de classificações aleatórias (seção 11).</div><br>
+>><div style="text-align: justify">(<strong>Curva ROC e métricas dos ensaios de classificação</strong>) Os algoritmos Decision Tree Classifier e Random Forest Classifier apresentaram os melhores resultados tal como indicado pela curva ROC e pelas demais métricas.</div><br>
 >>
->><div style="text-align: justify">(<strong>Ensaio de classificação com </strong>) O algoritmo apresentou performances satisfatórias com curvas ROC distantes da curva de classificação aleatória (seção 7).</div><br>
+>><p align = "center"><img src="img/roc_curve_tabelas.png" alt="" width="500" height="500"/></p>
 >>
 >><div style="text-align: justify">(<strong>Ensaio de regressão</strong>) Os algoritmos de regressão linear e polinomial não apresentaram performances satisfatórias (seções 3 e 6 do notebook ensaio_regressao.ipynb) e as regularizações não melhoraram significativamente as métricas de performance (seção 7).</div><br>
 >>
