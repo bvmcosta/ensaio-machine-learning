@@ -105,7 +105,7 @@
 >>
 >>|       Título da Tabela         |
 >>|--------------------------------|
->>| Cabeçalho 1  | Cabeçalho 2     |
+>>| Cabeçalho 1  | Cabeçalho 2|    |
 >>|--------------------------------|
 >>| Conteúdo 1   | Conteúdo 2 |  A |
 >>| Conteúdo 3   | Conteúdo 4 |  B |
