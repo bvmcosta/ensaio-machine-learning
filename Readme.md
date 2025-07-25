@@ -1,4 +1,4 @@
-<img src="img/imagem.jpg" alt="" width="500" height="200"/>
+<img src="img/imagem.jpg" alt="" width="500" height="500"/>
 
 # Apresentação
 
