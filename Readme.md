@@ -4,7 +4,7 @@
 
   <div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido para adquirir experiência quanto à utilização dos algoritmos de <em>machine learning</em> para resolução de problemas de negócios em empresas. Os conjuntos de dados foram disponibilizados no curso Fundamentos de <em>Machine Learning</em> ministrado pelo professor Meigarom na <a href = "https://comunidadeds.com/)">Comunidade DS</a>.</div><br>
 
-# Objetivo Geral
+# Objetivo
 >
 >> <div style="text-align: justify">O objetivo deste projeto foi avaliar a performance de algoritmos de aprendizado supervisionado e não supervisionado na execução de tarefas de classificação, regressão e agrupamento (clusterização).</div>
 >
@@ -102,6 +102,15 @@
 >> - Utilização de algoritmos supervisionados de aprendizado de máquina
 >> - Utilização de algoritmos não supervisionados de aprendizado de máquina
 >> - Interpretação de métricas de performance dos algoritmos
+>>
+>>   |       Título da Tabela       |
+|------------------------------|
+| Cabeçalho 1 | Cabeçalho 2 |
+|------------------------------|
+| Conteúdo 1   | Conteúdo 2     |
+| Conteúdo 3    | Conteúdo 4   |
+|       Conteúdo 5             |
+|      Conteúdo 6              |
 
 
 
