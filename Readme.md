@@ -67,6 +67,8 @@
 >>
 >><div style="text-align: justify">(<strong>Ensaio de regressão</strong>) Os algoritmos de regressão linear e polinomial não apresentaram performances satisfatórias (seções 3 e 6 do notebook ensaio_regressao.ipynb) e as regularizações não melhoraram significativamente as métricas de performance (seção 7).</div><br>
 >>
+>>>><p align = "center"><img src="img/regressoes.png" alt="" width="500" height="500"/></p>
+>>
 >><div style="text-align: justify">(<strong>Ensaio de regressão com  <em>Decision Tree Regressor</em></strong>) O algoritmo não apresentou performance satisfatória mesmo com a otimização dos hiperparâmetros utilizando o GridSearch (seção 4). Neste ensaio, observaram-se erros mais baixos com max_depth igual a 6 (seção 4.1) e max_features igual a 8 (seção 4.3). A otimização de hiperparâmetros com GridSearch não melhorou significativamente a performance do algoritmo (seção 4.5).</div><br>
 >>
 >><div style="text-align: justify">(<strong>Ensaio de regressão com  <em>Random Forest Regressor</em></strong>) O algoritmo apresentou performance moderada (seção 5) e a otimização com Grid Search aumentou um pouco a métrica <em>R</em><sup>2</sup> (seção 5.1).</div><br>
