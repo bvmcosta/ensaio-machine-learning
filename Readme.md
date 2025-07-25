@@ -73,7 +73,7 @@
 >>
 >><div style="text-align: justify">(<strong>Ensaio de regressão com  <em>Random Forest Regressor</em></strong>) O algoritmo apresentou performance moderada (seção 5) e a otimização com Grid Search não aperfeiçoou o algoritmo (seção 5.1).</div><br>
 >>
->><p align = "center"><img src="img/random_forest.png" alt="" width="500" height="500"/></p>
+>><p align = "center"><img src="img/random_forest.png" alt="" width="400" height="400"/></p>
 >>
 >><div style="text-align: justify">(<strong>Ensaios de clusterização</strong>) Os algoritmos apresentaram coeficientes de silhuetas baixos mesmo após a otimização de hiperparâmetros com GridSearch (notebook ensaio_clusterizacao.ipynb)</div><br>
 
