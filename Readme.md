@@ -83,7 +83,9 @@
 
 # Perspectivas
 >>
->><div style="text-align: justify"> Os resultados dos algoritmos paramétricos de regressão (regressão linear e polinomial com ou sem regularizações) indicaram a necessidade de processamento prévio dos dados antes do ajuste do modelos. Esse processamento deve considerar a multicolinearidade de variáveis independentes (por exemplo, as variáveis <em>loudness</em> e <em>energy</em>) (seção 8 do notebook ensaio_regressao.ipynb), a existência de valores extremos e a distribuição dos valores. Esse processamento será feito para aperfeiçoar os algoritmos de aprendizado de máquina.</div><br>
+>><div style="text-align: justify"> Os resultados dos algoritmos paramétricos de regressão (regressão linear e polinomial com ou sem regularizações) indicaram a necessidade de processamento prévio dos dados antes do ajuste dos modelos. Esse processamento deve considerar a multicolinearidade de variáveis independentes (por exemplo, as variáveis <em>loudness</em> e <em>energy</em>) (seção 8 do notebook ensaio_regressao.ipynb), a existência de valores extremos e a distribuição dos valores. Esse processamento será feito para aperfeiçoar os algoritmos de aprendizado de máquina.</div><br>
+>>
+>><p align = "center"><img src="img/loudness_energy.png" alt="" width="400" height="400"/></p>
 
 
 # Ferramentas utilizadas
