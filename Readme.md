@@ -103,14 +103,14 @@
 >> - Utilização de algoritmos não supervisionados de aprendizado de máquina
 >> - Interpretação de métricas de performance dos algoritmos
 >>
->>|       Título da Tabela       |
->>|------------------------------|
->>| Cabeçalho 1  | Cabeçalho 2   |
->>|------------------------------|
+>>|       Título da Tabela         |
+>>|--------------------------------|
+>>| Cabeçalho 1  | Cabeçalho 2     |
+>>|--------------------------------|
 >>| Conteúdo 1   | Conteúdo 2 |  A |
 >>| Conteúdo 3   | Conteúdo 4 |  B |
->>|       Conteúdo 5             |
->>|       Conteúdo 6             |
+>>|       Conteúdo 5               |
+>>|       Conteúdo 6               |
 
 
 
