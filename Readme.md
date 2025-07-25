@@ -53,7 +53,7 @@
 >>
 >><p align = "center"><img src="img/img_threshold.png" alt="" width="500" height="500"/></p>
 >>
->><div style="text-align: justify">(<strong>Ensaio de classificação com SGD</strong>)O algoritmo SGD apresentou baixa performance em geral, provavelmente porque foi um algoritmo exclusivamente aleatório tal como indicado pela curva ROC e pela pontuação ROC AUC igual a 0.5 (seção 4).</div><br>
+>><div style="text-align: justify">(<strong>Ensaio de classificação com SGD</strong>)O algoritmo SGD apresentou baixa performance em geral, provavelmente porque classificou as instâncias de forma aleatória tal como indicado pela curva ROC e pela pontuação ROC AUC igual a 0.5 (seção 4).</div><br>
 >>
 >><p align = "center"><img src="img/roc_auc_sgd.png" alt="" width="500" height="500"/></p>
 >>
