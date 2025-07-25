@@ -1,4 +1,5 @@
-<img src="img/imagem.jpg" alt="" style="width:200px;"/>
+<img src="img/imagem.jpg" alt="" width="500" height="200"/>
+
 # Apresentação
 
   <div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido para adquirir experiência quanto à utilização dos algoritmos de <em>machine learning</em> para resolução de problemas de negócios em empresas. Os conjuntos de dados foram disponibilizados no curso Fundamentos de <em>Machine Learning</em> ministrado pelo professor Meigarom na <a href = "https://comunidadeds.com/)">Comunidade DS</a>.</div><br>
