@@ -51,6 +51,8 @@
 >>
 >><div style="text-align: justify">(<strong>Ensaio de classificação com KNN</strong>) O limiar de decisão aproximdamente igual a 0.6 maximizou as métricas acurácia, precisão e revocação. A partir do limiar de 0.73, a precisão diminuiu rapidamente (seções 3.1.2 e 3.1.3 do notebook ensaio_classificacao.ipynb). O algoritmo otimizado com base na precisão (k = 4; seções 3.1.4) indicou métricas de performance mais baixas (erro de generalização mais alto) sobre as previsões de x_test conforme esperado (df2; seção 3.1.6).</div><br>
 >>
+>><p align = "center"><img src="img/img_threshold.jpg" alt="" width="500" height="500"/></p>
+>>
 >><div style="text-align: justify">(<strong>Ensaio de classificação com SGD</strong>)O algoritmo SGD apresentou baixa performance em geral, provavelmente porque foi um algoritmo exclusivamente aleatório tal como indicado pela pontuação ROC AUC igual a 0.5 (seção 4).</div><br>
 >>
 >><div style="text-align: justify">(<strong>Ensaio de classificação com Decision Tree Classifier</strong>) Em geral, o algoritmo Decision Tree apresentou alta performance e as métricas demonstraram a inadequação (valores iguais a 1; seção 5) de uso do conjunto de treinamento (utilizado no ajuste do modelo) para previsão de novas classes.</div><br>
