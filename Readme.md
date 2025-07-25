@@ -57,11 +57,13 @@
 >>
 >><p align = "center"><img src="img/roc_auc_sgd.png" alt="" width="500" height="500"/></p>
 >>
->><div style="text-align: justify">(<strong>Ensaio de classificação com Decision Tree Classifier</strong>) Em geral, o algoritmo Decision Tree apresentou alta performance e as métricas demonstraram a inadequação (valores iguais a 1; seção 5) de uso do conjunto de treinamento (utilizado no ajuste do modelo) para previsão de novas classes.</div><br>
+>><div style="text-align: justify">(<strong>Ensaios de classificação com Decision Tree Classifier, Random Forest Classifier e Logistic Regression</strong>) Os algoritmos Decision Tree Classifier e Random Forest Classifier apresentaram resultados satisfatórios de previsão das classes (0 ou 1) (seções 5 e 6), seguidos do algoritmo Logistic Regression (seção 7).</div><br>
 >>
->><div style="text-align: justify">(<strong>Ensaio de classificação com Random Forest Classifier</strong>) O algoritmo apresentou performance muito satisfatória (seção 6) e a curva ROC indicou distanciamento máximo da curva proveniente de classificações aleatórias (seção 11).</div><br>
+>><p align = "center"><img src="img/resultados_dtr_rfr_lr.png" alt="" width="500" height="500"/></p>
 >>
->><div style="text-align: justify">(<strong>Ensaio de classificação com Logistic Regression</strong>) O algoritmo apresentou performances satisfatórias com curvas ROC distantes da curva de classificação aleatória (seção 7).</div><br>
+>><div style="text-align: justify">(<strong>Ensaio de classificação com </strong>) O algoritmo apresentou performance muito satisfatória (seção 6) e a curva ROC indicou distanciamento máximo da curva proveniente de classificações aleatórias (seção 11).</div><br>
+>>
+>><div style="text-align: justify">(<strong>Ensaio de classificação com </strong>) O algoritmo apresentou performances satisfatórias com curvas ROC distantes da curva de classificação aleatória (seção 7).</div><br>
 >>
 >><div style="text-align: justify">(<strong>Ensaio de regressão</strong>) Os algoritmos de regressão linear e polinomial não apresentaram performances satisfatórias (seções 3 e 6 do notebook ensaio_regressao.ipynb) e as regularizações não melhoraram significativamente as métricas de performance (seção 7).</div><br>
 >>
