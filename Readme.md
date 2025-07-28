@@ -17,7 +17,7 @@
 >>     <td><strong>Métricas de Performance</strong></td>
 >>  </tr>
 >>  <tr>
->>    <td rowspan="5" align="top">Supervisionado</td>
+>>    <td rowspan="5" style="vertical-align:top;">Supervisionado</td>
 >>    <td>K-Nearest Neighbor (KNN)</td>
 >>    <td rowspan="5" style="vertical-align:top;">Classificação</td>
 >>    <td>Acurácia</td>
