@@ -81,7 +81,7 @@
 >> 
 >> ## Matriz de confusão
 >>
->> <div style="text-align: justify">A matriz de confusão foi utilizada para calcular as métricas de perfomance nos algoritmos supervisionados para tarefa de clusterização (tabela abaixo).
+>> <div style="text-align: justify">A matriz de confusão foi utilizada para calcular as métricas de perfomance nos algoritmos supervisionados para tarefa de classificação (tabela abaixo).
 >
 >>
 >>|                                 | <strong>Previsão (Classe 0)</strong> | <strong>Previsão (Classe 1)</strong> |
