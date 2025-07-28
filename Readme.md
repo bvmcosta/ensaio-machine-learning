@@ -8,68 +8,81 @@
 >
 >> <div style="text-align: justify">O objetivo deste projeto foi avaliar a performance de algoritmos de aprendizado supervisionado e não supervisionado na execução de tarefas de classificação, regressão e agrupamento (clusterização).</div><br>
 >><br>
+>><html>
+>><head>
+>>  <title>
+>>      HTML td align Attribute
+>>  </title>
+>>  <style>
+>>      h1,
+>>      h2 {
+>>          text-align: center;
+>>          color: green;
+>>      }
+>>  </style>
+>></head>
 >>
->><table>
->><tr>
->>   <td><strong>Tipo de Aprendizado<strong></td>
->>   <td><strong>Algoritmo</strong></td>
->>   <td><strong>Tarefa</strong></td>
->>   <td><strong>Métricas de Performance</strong></td>
->></tr>
->><tr>
->>  <td rowspan="5" style="vertical-align: top;">Supervisionado</td>
->>  <td>K-Nearest Neighbor (KNN)</td>
->>  <td rowspan="5" style="vertical-align: top;">Classificação</td>
->>  <td>Acurácia</td>
->></tr>
->><tr>
->>  <td>Stochastic Gradient Descent Classifier (SGD)</td>
->>  <td>Precisão</td>
->></tr>
->><tr>
->>  <td>Decision Tree</td>
->>  <td>Revocação (Recall)</td>
->></tr>
->><tr>
->>  <td>Random Forest</td>
->>  <td>Pontuação F1 (F1 score)</td>
->></tr>
->><tr>
->>  <td>Logistic Regression</td>
->>  <td>Pontuação ROC AUC</td>
->></tr>
->><tr>
->>  <td rowspan="5" style="vertical-align: top;">Supervisionado</td>
->>  <td>Linear Regression</td>
->>  <td rowspan="5" style="vertical-align: top;">Regressão</td>
->>  <td>Coeficiente de Determinação (R<sup>2</sup>)</td>
->></tr>
->><tr>
->>  <td>Polinomial Regression</td>
->>  <td>Mean Squared Error (MSE)</td>
->></tr>
->><tr>
->>  <td>Lasso, Ridge and ElasticNet regularizations</td>
->>  <td>Root Mean Squared Error (RMSE)</td>
->></tr>
->><tr>
->>  <td>Decision Tree Regressor</td>
->>  <td>Mean Absolute Error (MAE)</td>
->></tr>
->><tr>
->>  <td>Random Forest Regressor</td>
->>  <td>Mean Absolute Percentage Error (MAPE)</td>
->></tr>
->><tr>
->>  <td rowspan="2" style="vertical-align: top;">Não Supervisionado</td>
->>  <td>K-Means</td>
->>  <td rowspan="2" style="vertical-align: top;">Clusterização</td>
->>  <td>Within Cluster Sum of Squares (WCSS)</td>
->></tr>
->><tr>
->>  <td>Affinity Propagation</td>
->>  <td>Coeficiente de silhueta (Silhouette score)</td>
->></tr>
+>><table width="500" border="2">
+>>  <tr>
+>>     <td><strong>Tipo de Aprendizado<strong></td>
+>>     <td><strong>Algoritmo</strong></td>
+>>     <td><strong>Tarefa</strong></td>
+>>     <td><strong>Métricas de Performance</strong></td>
+>>  </tr>
+>>  <tr>
+>>    <td rowspan="5" style="vertical-align: top;">Supervisionado</td>
+>>    <td>K-Nearest Neighbor (KNN)</td>
+>>    <td rowspan="5" style="vertical-align: top;">Classificação</td>
+>>    <td>Acurácia</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Stochastic Gradient Descent Classifier (SGD)</td>
+>>    <td>Precisão</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Decision Tree</td>
+>>    <td>Revocação (Recall)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Random Forest</td>
+>>    <td>Pontuação F1 (F1 score)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Logistic Regression</td>
+>>    <td>Pontuação ROC AUC</td>
+>>  </tr>
+>>  <tr>
+>>    <td rowspan="5" style="vertical-align: top;">Supervisionado</td>
+>>    <td>Linear Regression</td>
+>>    <td rowspan="5" style="vertical-align: top;">Regressão</td>
+>>    <td>Coeficiente de Determinação (R<sup>2</sup>)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Polinomial Regression</td>
+>>    <td>Mean Squared Error (MSE)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Lasso, Ridge and ElasticNet regularizations</td>
+>>    <td>Root Mean Squared Error (RMSE)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Decision Tree Regressor</td>
+>>    <td>Mean Absolute Error (MAE)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Random Forest Regressor</td>
+>>    <td>Mean Absolute Percentage Error (MAPE)</td>
+>>  </tr>
+>>  <tr>
+>>    <td rowspan="2" style="vertical-align: top;">Não Supervisionado</td>
+>>    <td>K-Means</td>
+>>    <td rowspan="2" style="vertical-align: top;">Clusterização</td>
+>>    <td>Within Cluster Sum of Squares (WCSS)</td>
+>>  </tr>
+>>  <tr>
+>>    <td>Affinity Propagation</td>
+>>    <td>Coeficiente de silhueta (Silhouette score)</td>
+>>  </tr>
 >></table>
 >>
 >> ## Objetivos Específicos
