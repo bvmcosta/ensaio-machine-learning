@@ -4,25 +4,12 @@
 
   <div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido para adquirir experiência quanto à utilização dos algoritmos de <em>machine learning</em> na execucão de tarefas de classificação, regressão e agrupamento. Os conjuntos de dados foram disponibilizados no curso Fundamentos de <em>Machine Learning</em> ministrado pelo professor Meigarom na <a href = "https://comunidadeds.com/)">Comunidade DS</a>.</div><br>
 
-# Objetivo Geral
+# Objetivo
 >
 >> <div style="text-align: justify">O objetivo deste projeto foi avaliar a performance de algoritmos de aprendizado supervisionado e não supervisionado na execução de tarefas de classificação, regressão e agrupamento (clusterização).</div><br>
 >><br>
->><html>
->><head>
->>  <title>
->>      HTML td align Attribute
->>  </title>
->>  <style>
->>      h1,
->>      h2 {
->>          text-align: center;
->>          color: green;
->>      }
->>  </style>
->></head>
 >>
->><table width="500" border="2">
+>><table width="500" border="4">
 >>  <tr>
 >>     <td><strong>Tipo de Aprendizado<strong></td>
 >>     <td><strong>Algoritmo</strong></td>
