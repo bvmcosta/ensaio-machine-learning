@@ -64,21 +64,13 @@
 >>    <td rowspan="2" style="vertical-align: top;">Não Supervisionado</td>
 >>    <td>K-Means</td>
 >>    <td rowspan="2" style="vertical-align: top;">Clusterização</td>
->>    <td>Within Cluster Sum of Squares (WCSS)</td>
+>>    <td>Within-Cluster Sum of Squares (WCSS)</td>
 >>  </tr>
 >>  <tr>
 >>    <td>Affinity Propagation</td>
 >>    <td>Coeficiente de silhueta (Silhouette score)</td>
 >>  </tr>
 >></table>
->>
->> ## Objetivos Específicos
->>
->> - <div style="text-align: justify">Avaliar a performance de algoritmos supervisionados (<em>Stochastic Gradient Descent Classifier</em> - SGD, <em>K Nearest Neighbor Classifier</em> - KNN, <em>Decision Tree Classifier</em>, <em>Random Forest Classifier</em> e <em>Logistic Regression</em>) em ensaio de classificação utilizando métricas diversas.</div><br>
-
->> - <div style="text-align: justify">Avaliar a performance de algoritmos supervisionados (regressão linear e regressão linear com regularizações (Lasso, Ridge e Elastic Net), regressão polinomial e regressão polinomial com regularizações (Lasso, Ridge e Elastic Net), <em>Decision Tree Regressor</em> e <em>Random Forest Regressor</em>) em ensaio de regressão utilizando métricas diversas.</div><br>
-
->> -  <div style="text-align: justify">Avaliar a performance de algoritmos não supervisionados (<em>K Means</em>, <em>Affinity Propagation</em>) em ensaio de clusterização utilizando métricas diversas.</div><br>
 
 # Metodologia
 >
@@ -87,9 +79,9 @@
 >> <div style="text-align: justify">Três conjuntos de dados foram utilizados para condução dos ensaios de classificação (diretório datasets/classificacao/), regressão (diretório datasets/regressao/) e clusterização (diretório datasets/clusterizacao/). Conjuntos de dados diferentes foram utilizados para ajuste (X_training.csv e y_training.csv) e avaliação dos algoritmos supervisionados (X_validation, X_test, y_validation e y_test) e um conjunto de dados para os algoritmos não supervisionados (X_dataset.csv). Após ajuste dos modelos, as predições foram feitas utilizando os conjuntos de treinamento, validação e teste para avaliar as generalizações dos modelos.</div><br>
 >
 >> 
->> ## Métricas para avaliação da performance dos modelos
+>> ## Matriz de confusão
 >>
->> <div style="text-align: justify">As métricas acurácia, precisão, revocação (<em>recall</em>) e pontuação F1 (<em>F1 score</em>) foram utilizadas para avaliar a performance dos algoritmos supervisionados para classificação. Elas foram calculadas a partir da construção da matriz de confusão (tabela abaixo).
+>> <div style="text-align: justify">A matriz de confusão foi utilizada para calcular as métricas de perfomance nos algoritmos supervisionados para tarefa de clusterização (tabela abaixo).
 >
 >>
 >>|                                 | <strong>Previsão (Classe 0)</strong> | <strong>Previsão (Classe 1)</strong> |
@@ -99,13 +91,7 @@
 >><br>
 >>
 >><div style="text-align: justify">onde, TP (<em>True Positive</em>) é a quantidade de instâncias corretamente classificadas como Classe 1; TN (<em>True Negative</em>) é a quantidade de instâncias corretamente classificadas como Classe 0; FN (<em>False Negative</em>) e FP (<em>False Positive</em>) são as quantidades de instâncias incorretamente classificadas como Classe 0 e Classe 1, respectivamente.</div><br>
->
->><div style="text-align: justify">Além das métricas acima mencionadas, foi utilizada a área sob a curva característica de operação do recebedor (<em>area under the receiver operating characteristic curve </em> - ROC AUC) para comparação com a curva proveniente de algoritmo aleatório.</div><br>
->
->><div style="text-align: justify">As métricas coeficiente de determinação (<em>R</em><sup>2</sup>), erro quadrático médio (MSE), raiz quadrada do erro quadrático médio (RMSE), erro absoluto médio (MAE) e erro absoluto médio percentual (MAPE) foram utilizadas para avaliar a performance dos algoritmos supervisionados para regressão.</div><br>
->
->><div style="text-align: justify">As métricas coeficiente médio de silhueta e soma dos quadrados intra-custers (<em>Within-Cluster Sum of Squares</em> - WCSS) foram utilizadas para avaliar a performance dos algoritmos não supervisionados para clusterização.</div><br>
->
+>>
 >> ## Avaliação comparativa das métricas
 >>
 >><div style="text-align: justify">Tabelas foram construídas para comparar as métricas após as previsões utilizando os conjuntos de treino, validação e teste. Gráficos de dispersão foram construídos para avaliar a variação das métricas precisão e revocação bem como a variação das métricas em função de determinados parâmetros. A curva ROC foi utilizada para avaliar todos os algoritmos supervisionados de classificação.</div><br>
