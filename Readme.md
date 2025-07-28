@@ -1,5 +1,8 @@
 <p align = "center"><img src="img/imagem.jpg" alt="" width="500" height="500"/></p>
 
+<h3 style='text-align: center; color: black;'><strong>Bruno Varella Motta da Costa</strong></h3>
+<h4 style='text-align: center; color: black;'><a href="https://www.linkedin.com/in/brunovmcosta/">Linkedin</a></h4>
+
 # Apresentação
 
   <div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido para adquirir experiência quanto à utilização dos algoritmos de <em>machine learning</em> na execucão de tarefas de classificação, regressão e agrupamento. Os conjuntos de dados foram disponibilizados no curso Fundamentos de <em>Machine Learning</em> ministrado pelo professor Meigarom na <a href = "https://comunidadeds.com/)">Comunidade DS</a>.</div><br>
