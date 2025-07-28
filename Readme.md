@@ -9,7 +9,7 @@
 >> <div style="text-align: justify">O objetivo deste projeto foi avaliar a performance de algoritmos de aprendizado supervisionado e não supervisionado na execução de tarefas de classificação, regressão e agrupamento (clusterização).</div><br>
 >><br>
 >>
->><table width="600">
+>><table width="800">
 >>  <tr>
 >>     <td><strong>Tipo de Aprendizado<strong></td>
 >>     <td><strong>Algoritmo</strong></td>
