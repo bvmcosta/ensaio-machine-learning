@@ -1,11 +1,5 @@
 <p align = "center"><img src="img/imagem.jpg" alt="" width="500" height="500"/></p>
 
-# Autor: Bruno Varella Motta da Costa
-<ul class="contact">
-  <li class="icon solid fa-envelope"><a href="#">bruno.vmcosta@ufpe.br</a></li>
-  <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/brunovmcosta/">Linkedin</li>
-</ul>
-
 # Apresentação
 
   <div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido para adquirir experiência quanto à utilização dos algoritmos de <em>machine learning</em> na execucão de tarefas de classificação, regressão e agrupamento. Os conjuntos de dados foram disponibilizados no curso Fundamentos de <em>Machine Learning</em> ministrado pelo professor Meigarom na <a href = "https://comunidadeds.com/)">Comunidade DS</a>.</div><br>
