@@ -90,7 +90,7 @@
 >>| <strong>Real (Classe 1)</strong>| FN                                   |                                   TP |
 >><br>
 >>
->><div style="text-align: justify">onde, TP (<em>True Positive</em>) é a quantidade de instâncias corretamente classificadas como Classe 1; TN (<em>True Negative</em>) é a quantidade de instâncias corretamente classificadas como Classe 0; FN (<em>False Negative</em>) e FP (<em>False Positive</em>) são as quantidades de instâncias incorretamente classificadas como Classe 0 e Classe 1, respectivamente.</div><br>
+>><div style="text-align: justify">onde,  TN (<em>True Negative</em>) e TP (<em>True Positive</em>) são as quantidades de instâncias corretamente classificadas como Classe 0 ou Classe 1, respectivamente; FN (<em>False Negative</em>) e FP (<em>False Positive</em>) são as quantidades de instâncias incorretamente classificadas como Classe 0 e Classe 1, respectivamente.</div><br>
 >>
 >> ## Avaliação comparativa das métricas
 >>
